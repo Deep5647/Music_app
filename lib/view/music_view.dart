@@ -119,7 +119,7 @@ class _MusicPlayScreenState extends State<MusicPlayScreen> {
                             loadSong();
                           },
                           icon: Icon(
-                            Icons.navigate_before_rounded,
+                            Icons.skip_previous,
                             color: Colors.grey.shade50,
                             size: 40,
                           ),
@@ -140,7 +140,7 @@ class _MusicPlayScreenState extends State<MusicPlayScreen> {
                           icon: Icon(
                             providerW!.isPlay ? Icons.pause : Icons.play_circle,
                             color: Colors.grey.shade50,
-                            size: 40,
+                            size: 70,
                           ),
                         ),
                         const SizedBox(
@@ -155,7 +155,7 @@ class _MusicPlayScreenState extends State<MusicPlayScreen> {
                             loadSong();
                           },
                           icon: Icon(
-                            Icons.navigate_next,
+                            Icons.skip_next,
                             color: Colors.grey.shade50,
                             size: 40,
                           ),

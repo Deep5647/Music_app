@@ -31,16 +31,7 @@ class _splState extends State<spl> {
             image:DecorationImage(image: AssetImage('assets/image/music.jpg'),
             ),
           ),
-          child:  const Center(
-            child:  Padding(
-              padding: EdgeInsets.only(top: 500),
-              child: Text(
-                "Music",
-                style: TextStyle(
-                    color: Colors.black, fontSize: 30, letterSpacing: 2),
-              ),
-            ),
-          ),
+
         ),
 
 
